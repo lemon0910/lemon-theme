@@ -261,7 +261,7 @@
  '(rainbow-delimiters-depth-7-face ((t (:foreground "#F57900" :background "#F0FFF0"))))
  '(rainbow-delimiters-depth-8-face ((t (:foreground "#EE66E8" :background "#F0FFF0"))))
  '(rainbow-delimiters-depth-9-face ((t (:foreground "purple"  :background "#F0FFF0"))))
-
+ ;; helm
  '(helm-buffer-directory ((t (:foreground "DodgerBlue"))))
  ;; '(helm-ff-directory ((t (:background "black" :foreground "dodgerblue"))))
  '(helm-ff-dotted-directory ((t (:foreground "DodgerBlue"))))
@@ -273,6 +273,10 @@
  '(helm-selection ((t (:background "cyan" :foreground "yellow"))))
  ;; '(helm-source-header ((t (:background "black" :foreground "gold" :underline t :height 1.1))))
  '(helm-visible-mark ((t (:background "darkgreen" :foreground "grey"))))
+ ;; avy
+ '(avy-lead-face ((t (:background "gray" :foreground "white"))))
+ '(avy-lead-face-0 ((t (:background "gray" :foreground "white"))))
+ '(avy-lead-face-2 ((t (:background "gray" :foreground "white"))))
  )
 
 (provide 'lemon-theme)
